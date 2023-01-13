@@ -7,9 +7,9 @@
             "actions": [
                 {
                     "name": "Scroll",
-                    "type": "Value",
+                    "type": "PassThrough",
                     "id": "45d2b04e-a0d0-4644-bfc2-5b65c3a4e991",
-                    "expectedControlType": "Vector2",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": true
@@ -73,7 +73,7 @@
                 {
                     "name": "",
                     "id": "4e683652-4d1f-4eb5-8954-287c8a05c615",
-                    "path": "<Mouse>/scroll",
+                    "path": "<Mouse>/scroll/y",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -210,6 +210,34 @@
                     "processors": "",
                     "groups": "",
                     "action": "Right Click",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "UI",
+            "id": "9280cadd-06d8-4352-b921-49bf6b364858",
+            "actions": [
+                {
+                    "name": "Cursor Pos",
+                    "type": "Value",
+                    "id": "075499d0-471d-4f4b-b201-1ce1e74c1ade",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "281fae1a-9a56-49be-a3f0-382e7c1aeaf8",
+                    "path": "<Mouse>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Cursor Pos",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
